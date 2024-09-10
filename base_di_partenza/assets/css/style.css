@@ -424,7 +424,7 @@ article span:first-of-type img {
 
 header {
   position: sticky;
-  z-index: 999;
+  z-index: 998;
   left: 0px;
   right: 0px;
   top: 0;
@@ -481,13 +481,15 @@ header {
 
 @media screen and (min-width: 700px) {
   .buttoncalendar {
-    bottom: 80%;
+    bottom: 90%;
+    z-index: 999;
   }
 }
 
 @media screen and (min-width: 700px) {
   .buttonplus {
-    bottom: 75%;
+    bottom: 85%;
+    z-index: 999;
   }
 }
 /* non fatto bene perche non si adatta perfettamenete alla disposizione del responsive */
